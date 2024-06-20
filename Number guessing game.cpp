@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+     cout<<"        **Number guessing game**   "<<endl;
     srand(time(0));
     int Number =rand() % 301;
     cout<<"Guess the the correct number from 0 to 300"<<endl;
