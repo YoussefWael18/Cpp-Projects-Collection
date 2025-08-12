@@ -1,20 +1,26 @@
-# C++ projects
-This repository contains a collection of C++ projects that I have developed to practice and showcase my programming skills. Each project is designed to demonstrate different aspects of C++ programming, from basic concepts to more advanced topics.
+# Tic-Tac-Toe
 
-1-Number Guessing Game:
+## Console-Based Tic Tac Toe Game in C++
 
-Description: A simple number guessing game where the player tries to guess a random number within a specified range. The game provides hints to guide the player towards the correct answer.
+ A simple two-player Tic Tac Toe game implemented in C++. Features include a 3x3 board, win/draw detection, input validation, and a replay option.
 
-Features: Random number generation, user input handling, hint system.
+## Features
+- 3x3 game board displayed in the console with numbered positions (1-9) for easy input.
+- Alternating turns for Player X and O.
+- Win detection for rows, columns, and diagonals.
+- Draw detection if the board fills without a winner.
+- Input validation to prevent invalid or occupied moves.
+- Option to play again after each game.
 
-2-Tic Tac Toe:
+## Repository Structure
+- `src/`: C++ source code (e.g., `tic_tac_toe.cpp`)
+- `LICENSE`: MIT License for open-source usage
 
-Description: The classic Tic Tac Toe game implemented in C++. Play  with a friend in this timeless game of strategy and skill.
+## Technologies
+- C++ (standard library: iostream, string)
 
-Features:  two-player mode, board display, win detection.
-
-3-To-Do List:
-
-Description: A basic to-do list application that allows users to add, remove, and manage tasks. Keep track of your daily tasks with this simple yet effective tool.
-
-Features: Task management (add, remove, mark as complete), task display, simple user interface.
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YoussefWael18/Tic-Tac-Toe.git
+   cd Tic-Tac-Toe
